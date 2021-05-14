@@ -1,0 +1,62 @@
+.blog_right {
+  &__parameter {
+    li {
+      display: table;
+      border-top: 1px solid #eee;
+      padding: 5px 0;
+      width: 100%;
+
+      span {
+        width: 40%;
+        padding: 5px 0;
+        color: #666;
+        display: table-cell;
+      }
+      div {
+        padding: 6px 5px;
+        display: table-cell;
+        width: auto;
+
+        &.isim {
+          display: block;
+          border-bottom: 1px solid #eee;
+        }
+        &.ibsim {
+          display: block;
+          .hot {
+            background: #e91935;
+            color: #fff;
+
+            margin-right: 5px;
+            padding: 3px 5px;
+
+            border-radius: 3px;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  &__parameter_detail {
+    display: block;
+    padding: 6px 0;
+    margin: 10px 0 0;
+    width: 100%;
+
+    background-color: $color-blue;
+    color: #fff;
+
+    border: 1px solid $color-blue;
+    border-radius: 4px;
+
+    font-size: 14px;
+    text-align: center;
+
+    &:hover {
+      color: $color-blue;
+      background-color: #fff;
+      border: 1px solid $color-blue;
+    }
+  }
+}

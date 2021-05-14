@@ -1,0 +1,29 @@
+.dropdown {
+  position: relative;
+  width: 140px;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #288ad6;
+  padding: 2px 5px;
+  margin: 5px 10px 0 0;
+
+  span {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    line-height: 32px;
+
+    &:after {
+      content: "";
+      right: 0;
+      border: 6px solid transparent;
+      border-top-color: #288ad6;
+      display: inline-block;
+      margin: 13px 5px 0 0;
+      position: absolute;
+      top: 0;
+    }
+  }
+}

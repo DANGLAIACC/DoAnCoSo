@@ -1,0 +1,91 @@
+.phone {
+  &__ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    margin-bottom: 15px;
+
+    &__li {
+      border-right: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+
+      position: relative;
+      width: 19.905%;
+
+      & > a {
+        display: block;
+        padding: 10px 0;
+        position: relative;
+        color: #333;
+
+        & > div,
+        & > h3 {
+          margin: 5px 10px;
+        }
+      }
+      div.ratingresult {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 14px;
+      }
+      img {
+        margin: 15px auto;
+        width: 180px;
+        height: 180px;
+        display: block;
+        transition: all 0.2s ease-in-out;
+      }
+      a:hover {
+        & > img {
+          margin: 5px auto 25px;
+        }
+        & > h3 {
+          color: $color-blue;
+        }
+      }
+
+      .installment {
+        position: absolute;
+        top: 187px;
+        left: 10px;
+      }
+    }
+    &__li.large {
+      width: 39.917%;
+      img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+      }
+      a:hover > img {
+        margin: 0;
+      }
+      .installment {
+        position: unset;
+      }
+    }
+    .price {
+      display: inline-block;
+      font-size: 14px;
+      color: #bf081f;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.blog {
+  &__left {
+    float: left;
+    width: 65%;
+  }
+  &__right {
+    float: right;
+    width: 30%;
+  }
+}

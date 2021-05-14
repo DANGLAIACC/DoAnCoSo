@@ -1,0 +1,105 @@
+.phone-detail {
+  &__breadcrumb {
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        font-size: 14px;
+        color: $color-blue;
+        padding: 0 10px 0 0;
+      }
+      span {
+        display: inline-block;
+        font-size: 20px;
+        color: #999;
+        padding: 2px 5px 0 0;
+        line-height: 1;
+      }
+    }
+  }
+
+  &__span {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+  }
+  &__demo {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e4e4e4;
+
+    padding: 20px 0;
+
+    margin-top: 5px;
+    margin-bottom: 24px;
+
+    &__left {
+      width: 44.5%;
+      text-align: center;
+    }
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+    line-height: 42px;
+  }
+
+  .rating-result {
+    padding: 10px 10px 0 11px;
+  }
+  & > img {
+    cursor: pointer;
+    margin: 0 52px;
+  }
+
+  .color-pic__li {
+    text-align: center;
+    font-size: 11px;
+
+    color: #333;
+    width: 60px;
+
+    padding-bottom: 5px;
+    margin: 0 4px;
+
+    line-height: normal;
+    img {
+      margin: 0;
+      width: 100%;
+    }
+    [class^="ico-"] {
+      margin: 0;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+      font-size: 11px;
+
+      color: #333;
+      background: #fff;
+
+      line-height: normal;
+
+      width: 46px;
+      height: 46px;
+
+      border: 1px solid #dfdfdf;
+      border-radius: 4px;
+
+      padding: 4px;
+      margin: 5px auto;
+
+      cursor: pointer;
+    }
+    sup {
+      font-size: 10px;
+      color: #333;
+    }
+  }
+}

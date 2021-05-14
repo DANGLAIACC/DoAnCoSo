@@ -1,0 +1,44 @@
+@import "abstract/variable";
+
+@import "base/reset";
+@import "base/animation";
+// vendor
+@import "abstract/mixins";
+@import "abstract/functions";
+
+@import "assets/glide.core";
+@import "assets/glide.theme";
+
+@import "component/buttons";
+@import "component/input";
+@import "component/slickSlider";
+@import "component/slider";
+@import "component/ico";
+@import "component/label_installment";
+@import "component/dropdown";
+
+@import "layout/header";
+@import "layout/banner";
+@import "layout/footer";
+@import "layout/filter";
+@import "layout/sidebar";
+@import "layout/phone_item";
+@import "layout/phone";
+@import "layout/phone_detail";
+@import "layout/phone_detail_center";
+@import "layout/phone_detail_right";
+@import "layout/blog_left";
+@import "layout/blog_left_article";
+@import "layout/blog_right";
+@import "layout/login";
+@import "layout/modal_color";
+@import "layout/evaluate";
+@import "layout/evaluate_input";
+@import "layout/cart_modal";
+@import "layout/cart_item";
+@import "layout/invoice";
+@import "layout/shipping";
+@import "layout/evaluateAll";
+
+@import "page/trangChu";
+@import "page/about";

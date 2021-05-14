@@ -1,0 +1,21 @@
+[class*="btn"] {
+  outline: none !important;
+}
+.btn {
+  &-mua-ngay {
+    display: block;
+    overflow: hidden;
+    padding: 7px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+    margin: 10px 0;
+    &:hover {
+      color: #fff;
+    }
+  }
+}

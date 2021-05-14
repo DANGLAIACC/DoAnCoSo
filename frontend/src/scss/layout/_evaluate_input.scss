@@ -1,0 +1,60 @@
+.evaluateInput {
+  .selectStar {
+    margin: 10px 0;
+
+    span:first-child {
+      float: left;
+      display: inline-block;
+      margin-top: 2px;
+    }
+    .lstStar {
+      margin: 0 10px;
+      float: left;
+    }
+    .resultStar {
+      display: inline-block;
+      position: relative;
+
+      padding: 2px 8px;
+
+      background: #52b858;
+      color: #fff;
+
+      box-sizing: border-box;
+
+      font-size: 12px;
+
+      border-radius: 2px;
+      &:after {
+        content: "";
+
+        position: absolute;
+        right: 100%;
+        top: 50%;
+
+        border: 6px solid transparent;
+        border-right-color: #52b858;
+
+        height: 0;
+        width: 0;
+        pointer-events: none;
+        margin-top: -6px;
+      }
+    }
+  }
+  .card-body {
+    padding: 5px;
+    textarea {
+      font-size: 14px;
+      color: #333;
+      padding: 2px 7px;
+
+      width: 100%;
+      height: 78px;
+
+      resize: none;
+      border: none;
+      outline: none;
+    }
+  }
+}

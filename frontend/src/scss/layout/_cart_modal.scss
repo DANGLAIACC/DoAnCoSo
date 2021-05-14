@@ -1,0 +1,30 @@
+.cart-modal {
+  .cart__empty {
+    &__img {
+      width: 190px;
+    }
+    &__note {
+      margin: 15px 0px 30px;
+    }
+    &__btn {
+      display: block;
+      margin: 15px auto;
+      width: 300px;
+
+      line-height: 40px;
+      font-weight: 600;
+      font-size: 14px;
+
+      color: #288ad6;
+
+      border: 1px solid #288ad6;
+      border-radius: 4px;
+    }
+  }
+
+  .modal-header {
+    button.close {
+      outline: none;
+    }
+  }
+}

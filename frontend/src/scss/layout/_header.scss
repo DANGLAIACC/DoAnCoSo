@@ -1,0 +1,143 @@
+.header {
+  height: 80px;
+  min-width: 1024px;
+  width: 100%;
+  background-color: #000;
+
+  & > div {
+    height: 40px;
+    display: flex;
+
+    margin: 0 auto;
+    min-width: 1024px;
+    width: 100%;
+  }
+  &__main {
+    max-width: 1200px;
+
+    a {
+      color: #fff;
+      font-size: 12px;
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    &__logo {
+      padding: 6px 0 4px 5px;
+    }
+
+    &__form {
+      display: flex;
+
+      height: 30px;
+      width: 200px;
+
+      margin: 5px 10px 0 10px;
+
+      background: #fff;
+
+      border-radius: 4px;
+    }
+
+    &__input {
+      position: relative;
+      width: 162px;
+      height: 30px;
+
+      margin: 0 8px;
+
+      border: 0;
+
+      background: #fff;
+
+      text-indent: 10px;
+      font-size: 13px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    &__button {
+      height: 30px;
+      width: 30px;
+      background: none;
+      border: 0;
+    }
+    &__detail {
+      display: flex;
+      justify-content: space-between;
+
+      width: 100%;
+
+      &__gio-hang {
+        display: inline-block;
+        height: 30px;
+        width: 97px;
+        margin: 4px 0;
+
+        line-height: 30px;
+
+        border: 1px solid #8f8f8f;
+        border-radius: 4px;
+
+        text-align: center;
+        span {
+          font-size: 12px;
+        }
+      }
+      &__lich-su {
+        padding: 0 10px;
+        line-height: 1.2;
+      }
+
+      &__right {
+        display: flex;
+        a {
+          padding: 0 20px;
+          border-left: 1px solid #232323;
+          color: #fff;
+          height: 40px;
+          line-height: 40px;
+
+          display: inline-block;
+
+          &:hover {
+            background-color: #fff;
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+
+  &__nav {
+    max-width: 100%;
+    background-color: #fed101;
+
+    &__content {
+      background-color: #fed700;
+      max-width: 1200px;
+      min-width: 1024px;
+      width: 100%;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: space-around;
+      a {
+        color: #000;
+        text-decoration: none;
+
+        display: inline-block;
+        padding: 0 10px;
+
+        line-height: 40px;
+
+        &:hover {
+          color: #000;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}

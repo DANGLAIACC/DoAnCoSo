@@ -1,0 +1,13 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  height: 170px;
+  &__left {
+    width: 800px;
+  }
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

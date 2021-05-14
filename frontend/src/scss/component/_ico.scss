@@ -1,0 +1,226 @@
+[class^="ico-"] {
+  background-image: url(https://www.thegioididong.com/Content/desktop/images/V5/icondesktop20200728@1x.png?v=2);
+
+  background-repeat: no-repeat;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
+.ico-logo {
+  @include renderIcon(156px, 30px, 0 0);
+  margin: auto;
+}
+.ico-search {
+  @include renderIcon(20px, 20px, -160px 0);
+  display: block;
+  margin: 1px auto 0;
+}
+.ico-card {
+  @include renderIcon(20px, 18px, -144px -91px);
+
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 5px;
+}
+.ico-mobile {
+  @include renderIcon(13px, 20px, 0 -91px);
+}
+.ico-laptop {
+  @include renderIcon(24px, 20px, -16px -91px);
+}
+.ico-tablet {
+  @include renderIcon(16px, 20px, -43px -91px);
+}
+
+.ico-phukien {
+  @include renderIcon(22px, 20px, -60px -91px);
+}
+
+.ico-fashionwatch {
+  @include renderIcon(14px, 20px, -102px -91px);
+}
+
+.ico-watch {
+  @include renderIcon(14px, 20px, -83px -91px);
+}
+
+.ico-pc {
+  @include renderIcon(23px, 20px, -118px -91px);
+}
+.ico-close {
+  @include renderIcon(18px, 18px, -205px -30px);
+}
+.ico-checklist {
+  @include renderIcon(16px, 14px, -185px -30px);
+}
+
+.ico-ystar {
+  @include renderIcon(12px, 12px, -295px -30px);
+}
+
+.ico-gstar {
+  @include renderIcon(12px, 12px, -310px -30px);
+}
+
+.ico-fb {
+  @include renderIcon(13px, 13px, 0 -30px);
+  margin-right: 3px;
+}
+
+.ico-yt {
+  @include renderIcon(17px, 13px, -16px -30px);
+  margin-right: 3px;
+}
+
+.ico-video {
+  @include renderIcon(30px, 24px, -325px -50px);
+}
+.ico-openBox {
+  @include renderIcon(30px, 30px, -215px -50px);
+}
+.ico-360 {
+  @include renderIcon(39px, 22px, -282px -50px);
+}
+
+.icologo-maiam {
+  @include renderIcon(100px, 19px, -313px 0);
+}
+.icologo-dmx {
+  @include renderIcon(111px, 19px, -109px 0);
+}
+.icologo-bhx {
+  @include renderIcon(90px, 19px, -220px 0);
+}
+
+.ico-opt {
+  @include renderIcon(16px, 16px, -380px -30px);
+  margin-right: 5px;
+}
+
+[class^="icologo-"] {
+  background-image: url(https://www.thegioididong.com/Content/desktop/images/V4/logosprite@1x.png?v=3);
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.ico2-gh {
+  @include renderIcon2(
+    "https://drive.google.com/uc?export=download&id=1njBggYVTLwGz04EENaqhA_nElZS7VA5A",
+    38px,
+    28px,
+    35px 28px
+  );
+}
+
+.ico2-tt {
+  @include renderIcon2(
+    "https://drive.google.com/uc?export=download&id=11amiZiT8n1sp5-UyMPPL4b1wGqFmDUum",
+    45px,
+    31px,
+    29px 31px
+  );
+}
+
+.ico2-tn {
+  @include renderIcon2(
+    "https://drive.google.com/uc?export=download&id=1l6rAoNVQiUomof5ihEfivyfy6m_UkjqM",
+    42px,
+    31px,
+    31px 31px
+  );
+}
+.ico2-dt {
+  @include renderIcon2(
+    "https://drive.google.com/uc?export=download&id=1qJun6GUjsYXMU7sRYGDSmsOj7UOl1F7q",
+    37px,
+    32px,
+    32px 32px
+  );
+}
+.ico2-ht {
+  @include renderIcon2(
+    "https://drive.google.com/uc?export=download&id=1ipBrQQh_3LJOBinF33nQe6-1Em4ZqXVS",
+    49px,
+    30px,
+    30px 30px
+  );
+}
+.ico-local {
+  @include renderIcon2(
+    "https://drive.google.com/uc?export=download&id=1mwhaL41zBarCL6l7TboGQmYWBAJyeB8g",
+    15px,
+    20px,
+    12px
+  );
+  margin-right: 1px;
+}
+
+.iconcom-txtstar {
+  background: url(https://s.tgdd.vn/comment/Content/images/commentmobile@2x.png)
+    no-repeat;
+  background-size: 270px 128px;
+  background-position: -241px -83px;
+
+  display: inline-block;
+  margin-top: -3px;
+  width: 13px;
+  height: 12px;
+}
+[class^="iconcom-"] {
+  background: url(https://s.tgdd.vn/comment/Content/images/commentmobile@2x.png)
+    no-repeat;
+  background-size: 270px 128px;
+
+  display: inline-block;
+}
+.iconcom-star {
+  width: 22px;
+  height: 20px;
+  background-position: -152px -80px;
+}
+.iconcom-star-large {
+  background-position: -307px -157px;
+  background-size: 540px 256px;
+
+  margin-left: 12px;
+  width: 40px;
+  height: 44px;
+}
+.iconcom-unstar {
+  width: 22px;
+  height: 20px;
+  background-position: -121px -80px;
+}
+.iconcom-logo {
+  background-position: -60px -49px;
+
+  margin-right: 5px;
+
+  width: 20px;
+  height: 20px;
+
+  vertical-align: sub;
+}
+
+.ico-radio {
+  background-position: -380px -30px;
+  width: 16px;
+  height: 16px;
+}
+.active .ico-radio {
+  background-position: -400px -30px;
+}
+
+.ico-checkbox {
+  @include renderIcon(16px, 16px, -145px -30px);
+  vertical-align: sub;
+  margin-right: 3px;
+}
+.active .ico-checkbox {
+  background-position: -165px -30px;
+}

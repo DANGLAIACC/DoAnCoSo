@@ -1,0 +1,86 @@
+.right {
+  width: 270px;
+
+  a {
+    color: $color-blue;
+  }
+
+  strong.hangTonTai {
+    display: block;
+    font-size: 14px;
+    color: $color-blue;
+    padding: 5px 0 7px 0;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  ul.policy {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 0 0 10px 0;
+    padding: 3px 10px 0px;
+
+    li {
+      display: flex;
+      padding: 6px 0;
+      border-bottom: solid 1px #f0f0f0;
+      span {
+        line-height: 22px;
+        a {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+  .productOld {
+    border: solid 1px #ddd;
+    padding: 10px 12px 10px 12px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    a {
+      span {
+        display: block;
+        line-height: 22px;
+        color: #333;
+
+        &:first-child {
+          margin-top: 3px;
+        }
+        strong {
+          color: #e10c00;
+        }
+      }
+    }
+  }
+
+  .ico2-box {
+    @include renderIcon2(
+      "https://drive.google.com/uc?export=download&id=1Ne4NQL0aRfXBsc1BjkoVIA-gmsIDSzpv",
+      64px,
+      16px,
+      19px 16px
+    );
+    margin-right: 6px;
+    margin-top: 3px;
+  }
+
+  .ico2-quantity {
+    @include renderIcon2(
+      "https://drive.google.com/uc?export=download&id=1an0FYLOP-rhDEZ9KVCs7OwSxm92851rJ",
+      19px,
+      23px,
+      16px 23px
+    );
+    margin-right: 7px;
+  }
+
+  .ico2-return {
+    @include renderIcon2(
+      "https://drive.google.com/uc?export=download&id=1aat59CA7vCQJwz22hCLLuCruilC7MzB3",
+      42px,
+      20px,
+      18px 20px
+    );
+    margin: 5px 7px 0 0;
+  }
+}

@@ -1,0 +1,27 @@
+@mixin renderIcon($width, $height, $position) {
+  width: #{$width};
+  height: #{$height};
+  background-position: #{$position};
+}
+
+@mixin renderIcon2($url, $width, $height, $bgSize) {
+  background-image: url(#{$url});
+  background-size: #{$bgSize};
+  background-repeat: no-repeat;
+
+  width: #{$width};
+  height: #{$height};
+  margin-right: 14px;
+}
+
+@mixin renderIconSlick($url) {
+  background-position: center top;
+
+  position: absolute;
+  top: 48px;
+
+  opacity: 1;
+  visibility: visible;
+
+  background-image: url($url);
+}

@@ -1,0 +1,169 @@
+.phone-detail {
+  // width: 378px;
+
+  .version b {
+    font-weight: bold;
+  }
+
+  .list-version {
+    display: flex;
+  }
+
+  a.item {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    text-align: center;
+
+    padding: 8px;
+    margin: 8px 2px;
+    width: 178px;
+    display: block;
+
+    cursor: pointer;
+
+    &.active {
+      border: 1px solid #f89008;
+      .ico-opt {
+        background: url("https://www.thegioididong.com/Content/desktop/images/V4/game/check.png");
+        width: 14px;
+        height: 14px;
+      }
+      span {
+        color: $color-blue;
+      }
+    }
+    span,
+    strong {
+      color: black;
+    }
+  }
+
+  a.item strong {
+    margin-top: 8px;
+    display: block;
+  }
+
+  &__demo__center {
+    width: 60%;
+    margin: 0 1%;
+  }
+  .price {
+    margin: 10px 0 16px;
+    strong {
+      display: inline-block;
+      overflow: hidden;
+      font-size: 20px;
+      color: #bf081f;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+
+  .promotion {
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    strong {
+      font-size: 15px;
+      color: #333;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      display: block;
+    }
+    &__info span {
+      font-size: 14px;
+      color: #333;
+      margin-left: 17px;
+      display: block;
+      text-align: justify;
+      margin-bottom: 6px;
+      &:before {
+        content: "";
+        @include renderIcon2(
+          "https://www.thegioididong.com/Content/desktop/images/V4/game/check@2x.png",
+          14px,
+          14px,
+          14px 14px
+        );
+
+        float: left;
+
+        margin: 3px 0 0 -18px;
+      }
+      a {
+        color: $color-blue;
+        margin-left: 5px;
+      }
+    }
+    hr {
+      border-width: 0;
+      height: 1px;
+      background-color: #ccc;
+      margin: 15px 0;
+    }
+  }
+  .vip-service {
+    & > * {
+      margin-bottom: 10px;
+    }
+    a {
+      color: black;
+      &:hover {
+        color: black;
+      }
+    }
+    & > b {
+      display: block;
+      & > b {
+        color: red;
+      }
+    }
+  }
+  &__center {
+    width: 378px;
+    margin: 0 34px;
+    .btn-mua-ngay {
+      border: none;
+      width: 100%;
+      &:focus,
+      &:visited {
+        border: none;
+      }
+      span {
+        display: block;
+        font-size: 13px;
+        color: #fff;
+        text-transform: none;
+        padding-top: 3px;
+      }
+    }
+  }
+  .phone-detail__center .slick-slider {
+    width: 100%;
+    button.slick-arrow {
+      &.slick-prev {
+        @include renderIconSlick("https://cdn.tgdd.vn/v2015/Content/desktop/images/V4/previcon1x.png");
+        left: -24px;
+      }
+      &.slick-next {
+        @include renderIconSlick("https://cdn.tgdd.vn/v2015/Content/desktop/images/V4/nexticon1x.png");
+        right: -13px;
+      }
+      // &.slick-disabled {
+      //   display: none;
+      //   visibility: hidden;
+      // }
+    }
+  }
+  .slick-slide,
+  .slick-slide div {
+    display: inline-block;
+  }
+}
